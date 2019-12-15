@@ -1,0 +1,35 @@
+{
+  "name": "customer_api",
+  "version": "1.0.0",
+  "description": "Restify/Mongoose/JWT restful api",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index",
+    "start": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamuirhead/customer_api.git"
+  },
+  "keywords": [
+    "restify",
+    "mongoose",
+    "jwt",
+    "rest"
+  ],
+  "author": "James Muirhead",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jamuirhead/customer_api/issues"
+  },
+  "homepage": "https://github.com/jamuirhead/customer_api#readme",
+  "dependencies": {
+    "mongoose": "^5.8.1",
+    "mongoose-timestamp": "^0.6.0",
+    "restify": "^8.5.1",
+    "restify-errors": "^8.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
