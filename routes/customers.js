@@ -9,7 +9,7 @@ module.exports = server => {
       res.send(customers);
       next();
     } catch (err) {
-      return next(new errors.InvalidContentError(err.message));
+      return next(new errors.InvalidContentError(err));
     }
   });
   // get one customer
@@ -41,7 +41,7 @@ module.exports = server => {
       res.send(201);
       next();
     } catch (err) {
-      return next(new errors.InternalError(err.message));
+      return next(new errors.InternalError(err));
     }
   });
   // update customer
